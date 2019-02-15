@@ -1,0 +1,19 @@
+{
+  "name": "18",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^2.5.2",
+    "parcel": "^1.11.0",
+    "vue-template-compiler": "^2.6.6"
+  },
+  "dependencies": {
+    "vue": "^2.6.6",
+    "vue-hot-reload-api": "^2.3.2"
+  },
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./"
+  }
+}
