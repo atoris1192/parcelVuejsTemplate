@@ -1,0 +1,4 @@
+# parcel Vue.js 雛形
+* parcel src/index.html
+* yarn start
+* yarn build
